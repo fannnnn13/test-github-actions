@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
     res.status(200).send({
-        message : "After using Github Actions for CI/CD, this is the first deployment of the app.",
+        message : "Halo, ini test untuk laporan akhir kampus FTTE",
         status : "Success"
     })
 });
